@@ -1,6 +1,5 @@
 /* Bouncing arrow in Header */
 .down-arrow {
-    position: fixed;
     bottom: 60px;
     z-index: 9999;
 }
