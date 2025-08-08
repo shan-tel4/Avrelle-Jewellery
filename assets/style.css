@@ -1,27 +1,4 @@
 /* Bouncing arrow in Header */
-.down-arrow {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
-<<<<<<< HEAD
-    position: absolute;
-    bottom: 0px;
-=======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-    bottom: 60px;
-    z-index: 9999;
-}
-@media screen and (max-width: 768px) {
-    .down-arrow {
-        display: none;
-    }
->>>>>>> 3e7e37eaca7c8dcdcbcef303995468042d083003
-}
 .arrow-container {
      animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
      cursor: pointer;
