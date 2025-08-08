@@ -1,5 +1,12 @@
 /* Bouncing arrow in Header */
 .down-arrow {
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    position: absolute;
+    bottom: 0px;
+=======
+>>>>>>> Stashed changes
     bottom: 60px;
     z-index: 9999;
 }
@@ -7,6 +14,7 @@
     .down-arrow {
         display: none;
     }
+>>>>>>> 3e7e37eaca7c8dcdcbcef303995468042d083003
 }
 .arrow-container {
      animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
@@ -19,6 +27,6 @@
     }
 }
  
-#about{
-    padding-top: 20px;
+#intro {
+    height: calc(100vh - 66px);
 }
