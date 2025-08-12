@@ -21,4 +21,38 @@ $(document).ready(function () {
             });
         }
     });
+
+    // SwiperJS
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        // direction: 'vertical',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        effect: 'fade',
+        fadeEffect: {
+            crossFade: true // enables smooth crossfade
+        },
+        speed: 800, // fade duration in ms
+        loop: true, // optional, for infinite scrolling
+        autoplay: {
+            delay: 3000, // optional, for auto-sliding
+            disableOnInteraction: false
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        // scrollbar: {
+        //     el: '.swiper-scrollbar',
+        // },
+    });
 });
